@@ -1,1 +1,1 @@
-![헤파이트](https://github.com/user-attachments/assets/3a0c694b-37c7-44af-9b8d-9d8ba56ffacc)
+![스크린샷 2025-05-01 오후 2 27 41](https://github.com/user-attachments/assets/e9fb7ed8-b308-404c-a64e-9aa47864b8be)
