@@ -285,12 +285,13 @@
 
     function showQuestion() {
       const q = [currentQuestion];
-      questionEl.innerText = `Q${currentQuestion + 1}. ${q.text}`;
+      questionEl.innerText = q.text;
       answersEl.innerHTML = '';
 
       q.options.forEach((option, index) => {
         const button = document.createElement('button');
-        button.innerText = option;
+        // button.innerText = option;
+        button.innerText = `Q${currentQuestion + 1}. ${option}`
         button.onclick = () => selectAnswer(index);
         answersEl.appendChild(button);
       });
