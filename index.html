@@ -284,8 +284,8 @@
     const progressEl = document.getElementById('progress');
 
     function showQuestion() {
-      const q = [currentQuestion];
-      questionEl.innerText = q.text;
+      const q = questions[currentQuestion];
+      questionEl.innerText = `Q${currentQuestion + 1}. ${q.text}`;
       
       answersEl.innerHTML = '';
 
